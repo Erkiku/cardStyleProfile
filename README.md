@@ -1,4 +1,6 @@
-# Abhishek Chaurasia - Portfolio
+# cardStyleProfile
+
+Abhishek Chaurasia's static HTML and CSS projects, including the portfolio, profile cards, and form page.
 
 Static portfolio website built with HTML and CSS.
 
