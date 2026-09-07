@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/CardStyle/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/CardStyle/:path*"
+    }
+  ]
+}
