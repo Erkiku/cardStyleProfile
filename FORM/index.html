@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #eaf2f8; color: #243447;">
+  <main style="max-width: 500px; margin: 30px auto; padding: 25px; background-color: #ffffff; border: 2px solid #3498db; border-radius: 8px; box-shadow: 0 4px 10px #c5d5e5;">
+    <h1 style="text-align: center; color: #1f618d;">Registration Form</h1>
+
+    <form action="#" method="post">
+      <div style="margin-bottom: 15px;">
+        <label for="name" style="color: #1f618d; font-weight: bold;">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[A-Za-z ]{2,50}" title="Name should contain only letters and spaces" required style="width: 100%; padding: 8px; border: 1px solid #9ec5df; border-radius: 4px;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="email" style="color: #1f618d; font-weight: bold;">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required style="width: 100%; padding: 8px; border: 1px solid #9ec5df; border-radius: 4px;">
+      </div>
+
+      <fieldset style="margin-bottom: 15px; border: 1px solid #9ec5df; border-radius: 4px;">
+        <legend style="color: #1f618d; font-weight: bold;">Gender</legend>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </fieldset>
+
+      <div style="margin-bottom: 15px;">
+        <label for="department" style="color: #1f618d; font-weight: bold;">Department</label><br>
+        <select id="department" name="department" required style="width: 100%; padding: 8px; border: 1px solid #9ec5df; border-radius: 4px;">
+          <option value="">Select your department</option>
+          <option value="cse">CSE</option>
+          <option value="ee">EE</option>
+          <option value="ece">ECE</option>
+          <option value="me">ME</option>
+          <option value="ce">CE</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label><input type="checkbox" name="terms" required> I agree to the terms and conditions.</label>
+      </div>
+
+      <button type="submit" style="padding: 10px 24px; background-color: #1f618d; color: #ffffff; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

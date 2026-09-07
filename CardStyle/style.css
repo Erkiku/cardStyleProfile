@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  text-align: center;
+  padding: 40px;
+}
+h1 {
+  margin-bottom: 30px;
+  color:rgb(212, 11, 11);
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  background-color: #c6c909;
+  width: 250px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+#name {
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.role {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.card p {
+  color:#666;
+  line-height: 1.5;
+}
+
+/* For mobile Screens */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+}
